@@ -10,10 +10,9 @@ if [ "tests" = $CURRENT_FOLDER ]; then
 	cp wp-tests-config-sample.php wp-tests-config.php
 	
 	echo "Inserting travis-ci specific credentials for mysql"
-	sed -i "s/youremptytestdbnamehere/wordpress_tests/" wp-tests-config.php
-	sed -i "s/yourusernamehere/travis/" wp-tests-config.php
-	sed -i "s/yourpasswordhere//" wp-tests-config.php
-
+	sed -i ".bak" -f sed_commands wp-tests-config.php
+	rm wp-tests-config.php.bak
+	
 else
 	echo "Please execute from within the tests folder!"
 fi
