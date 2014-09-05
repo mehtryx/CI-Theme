@@ -2,6 +2,10 @@
 
 Theme template implementing continuous integration testing
 
+# Current Version
+
+0.0.1 - September 5, 2014
+
 # Installation
 
 In order to run the tests locally, you must execute the tests/install.sh script.  This will pull the wordpress trunk which includes the default testing environment for use with the testing.  It will also prepare any environment variables, move and copy configuration files.  Once complete, the wp-tests-config.php file will need to be modified with your local database information.
