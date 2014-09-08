@@ -3,6 +3,11 @@
 	<!-- Set a description for this ruleset. -->
 	<description>A custom set of code standard rules</description>
 
+	<!-- Exclude the test directories which contain wordpress core functionality -->
+	<exclude-pattern>tests/tests/*</exclude-pattern>
+	<exclude-pattern>tests/src/*</exclude-pattern>
+	<exclude-pattern>tests/tools/*</exclude-pattern>
+
 	<!-- Include the WordPress ruleset, with exclusions. -->
 	<rule ref="WordPress">
 		<exclude name="WordPress.XSS.EscapeOutput" />
