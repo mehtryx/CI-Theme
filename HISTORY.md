@@ -1,3 +1,9 @@
+v1.0.0 - September 8, 2014
+============================
+
+* Short jump to v1.0, setup code sniffing and syntax error checking.
+* Verified on travis-ci and added the build status logo to README
+
 v0.0.1 - September 5, 2014
 ============================
 

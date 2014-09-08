@@ -4,7 +4,7 @@ Theme URI: https://github.com/mehtryx/CI-Theme
 Author: Keith Benedict (@mehtryx)
 Author URI: https://github.com/mehtryx
 Description: This theme is used as a template to demonstrate testing through phpunit, and Travis-ci for the purpose of implementing CI testing in wordpress development with themes.  The testing process demonstrates how to create a custom configuration for travis, bootstrap wordpress with the theme activated and additionally to implement code sniffing.
-Version: 0.0.1
+Version: 1.0.0
 License: MIT
 License URI: https://github.com/mehtryx/CI-Theme/master/LICENSE
 Tags: travis, ci, wordpress, theme, codesniff, phpunit, test
