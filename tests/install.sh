@@ -19,11 +19,11 @@ if [ "tests" = $CURRENT_FOLDER ]; then
 		
 		# Install CodeSniffer for WordPress Coding Standards checks.
 		cd /tmp/wordpress
-		git clone --quiet https://github.com/squizlabs/PHP_CodeSniffer.git php-codesniffer
+		git clone --quiet https://github.com/squizlabs/PHP_CodeSniffer.git /tmp/php-codesniffer
 		# Install WordPress Coding Standards.
-		git clone --quiet https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git wordpress-coding-standards
+		git clone --quiet https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git /tmp/wordpress-coding-standards
 		# Hop into CodeSniffer directory.
-		cd php-codesniffer
+		cd /tmp/php-codesniffer
 		# Set install path for WordPress Coding Standards
 		# @link https://github.com/squizlabs/PHP_CodeSniffer/blob/4237c2fc98cc838730b76ee9cee316f99286a2a7/CodeSniffer.php#L1941
 		./scripts/phpcs --config-set installed_paths ../wordpress-coding-standards
