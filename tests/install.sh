@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ev
 CURRENT_FOLDER="$(basename "$(pwd)")"
-TEST_PATH = "$(pwd)"
+TEST_PATH="$(pwd)"
 
 if [ "tests" = $CURRENT_FOLDER ]; then
 	echo "Retrieving wordpress trunk files...."
