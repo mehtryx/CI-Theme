@@ -18,7 +18,6 @@ if [ "tests" = $CURRENT_FOLDER ]; then
 		sed -i -f sed_commands wp-tests-config.php
 		
 		# Install CodeSniffer for WordPress Coding Standards checks.
-		cd /tmp/wordpress
 		git clone --quiet https://github.com/squizlabs/PHP_CodeSniffer.git /tmp/php-codesniffer
 		# Install WordPress Coding Standards.
 		git clone --quiet https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git /tmp/wordpress-coding-standards
