@@ -28,7 +28,7 @@ if [ "tests" = $CURRENT_FOLDER ]; then
 		# @link https://github.com/squizlabs/PHP_CodeSniffer/blob/4237c2fc98cc838730b76ee9cee316f99286a2a7/CodeSniffer.php#L1941
 		./scripts/phpcs --config-set installed_paths ../wordpress-coding-standards
 		# Hop into themes directory.
-		cd $TEST_PATH
+		cd "$TEST_PATH"
 		# After CodeSniffer install you should refresh your path.
 		phpenv rehash
 		
