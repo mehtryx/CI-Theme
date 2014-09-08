@@ -15,5 +15,5 @@ if ( file_exists( $path ) ) {
 	require_once $path;
 } else {
 	// Unable to load the default bootstrap.php file.
-	exit( "Unable to locate the core bootstrap.php, have you included the svn repository from http://develop.svn.wordpress.org/trunk/ ?" );
+	exit( 'Unable to locate the core bootstrap.php, have you included the svn repository from http://develop.svn.wordpress.org/trunk/ ?' );
 }

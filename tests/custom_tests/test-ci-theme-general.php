@@ -24,7 +24,7 @@ class CI_Theme_WordPress_Theme_Tests extends WP_UnitTestCase {
 	 */
 	function test_wp_version() {
 		
-		if ( !getenv( 'TRAVIS' ) )
+		if ( ! getenv( 'TRAVIS' ) )
 			$this->markTestSkipped( 'Test skipped since Travis CI was not detected.' );
 		
 		$requested_version = getenv( 'WP_VERSION' ) . '-src';

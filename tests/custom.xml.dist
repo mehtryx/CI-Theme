@@ -21,7 +21,7 @@
         </testsuite>
         <!-- CI-Theme custom tests (read: User generated) -->
         <testsuite name="CI-Theme Custom Tests">
-            <directory prefix="test_" suffix=".php">custom_tests</directory>
+            <directory prefix="test-" suffix=".php">custom_tests</directory>
         </testsuite>
     </testsuites>
     <logging>

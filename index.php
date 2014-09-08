@@ -7,7 +7,10 @@
 			<h4>Posted on <?php the_time( 'F jS, Y' ) ?></h4>
 			<p><?php the_content( esc_html_e( '(more...)' ) ); ?></p>
 			<hr> 
-		<?php endwhile; else: ?>
+			<?php 
+				endwhile; 
+			else:
+			 ?>
 			<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ) ?></p>
 		<?php endif; ?>
 	</div>
