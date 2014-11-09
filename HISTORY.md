@@ -1,3 +1,8 @@
+V1.0.1 - November 8, 2014
+============================
+
+* Preparing to add webhook functionality
+
 v1.0.0 - September 8, 2014
 ============================
 
