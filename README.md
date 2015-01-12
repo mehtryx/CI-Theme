@@ -2,6 +2,8 @@
 
 Theme template implementing continuous integration testing
 
+-![Build Status](https://travis-ci.org/mehtryx/CI-Theme.svg?branch=master "Build Status")
+
 # Current Version
 
 0.0.1 - September 5, 2014
